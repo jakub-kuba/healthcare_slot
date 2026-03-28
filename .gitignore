@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments and package managers
+.venv/
+.python-version
+uv.lock
+
+# Environment variables and secrets (CRITICAL)
+.env
+
+# Bot logs and runtime artifacts
+logs/
+cron_log.txt
+*.png
+
+# Project specific exclusions
+notes.txt
+old/
+
+# System specific files
+.DS_Store
+Thumbs.db
